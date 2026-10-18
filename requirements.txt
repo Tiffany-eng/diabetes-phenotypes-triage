@@ -1,0 +1,14 @@
+# Core stack. TensorFlow 2.20.0 is the version this project was run with (Kaggle, CPU).
+# The other packages are minimum versions known to support every API the notebook uses.
+# After your final run, replace each ">=" with "==" using the output of the freeze cell in README.md.
+tensorflow==2.20.0
+numpy>=1.26
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+ipython>=8.0
+tensorboard>=2.16
+ucimlrepo>=0.0.7
