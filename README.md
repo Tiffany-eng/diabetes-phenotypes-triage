@@ -49,8 +49,8 @@ Trained models (`.joblib`, `.keras`, `.h5`, SavedModel) and the raw dataset are 
 
 **Local or Colab**
 ```bash
-git clone PASTE_GITHUB_URL
-cd <repo-folder>
+git clone [GITHUB_URL](https://github.com/Tiffany-eng/diabetes-phenotypes-triage)
+cd diabetes-phenotypes-triage
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook ml-summative-diabetes-phenotypes.ipynb
