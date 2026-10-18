@@ -1,0 +1,23 @@
+{
+  "exp_id": "E24",
+  "group": "deep_learning",
+  "run": "Sequential trial 8",
+  "model": "Keras Sequential MLP",
+  "features": "main triage features (one-hot)",
+  "hyperparameters": "{\"units\": [256, 128, 64], \"dropout\": 0.2, \"l2\": 1e-05, \"lr\": 0.0003, \"batch\": 256}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.4705,
+  "balanced_acc": 0.5195,
+  "macro_precision": 0.5474,
+  "macro_recall": 0.5195,
+  "macro_f1": 0.5306,
+  "roc_auc_macro": 0.7264,
+  "pr_auc_macro": 0.5451,
+  "log_loss": 1.0903,
+  "fit_sec": 35.2,
+  "epochs_run": 19,
+  "observation": ""
+}

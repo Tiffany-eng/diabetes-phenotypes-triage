@@ -1,0 +1,21 @@
+{
+  "exp_id": "E31",
+  "group": "final_test",
+  "run": "TEST Hist Gradient Boosting",
+  "model": "Hist Gradient Boosting",
+  "features": "main triage features",
+  "hyperparameters": "{\"clf__min_samples_leaf\": 50, \"clf__max_leaf_nodes\": 63, \"clf__max_depth\": 6, \"clf__learning_rate\": 0.1, \"clf__l2_regularization\": 10.0}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "test",
+  "eval_n": 10728,
+  "accuracy": 0.476,
+  "balanced_acc": 0.5242,
+  "macro_precision": 0.5393,
+  "macro_recall": 0.5242,
+  "macro_f1": 0.5291,
+  "roc_auc_macro": 0.7316,
+  "pr_auc_macro": 0.5464,
+  "log_loss": 1.0893,
+  "observation": ""
+}

@@ -1,0 +1,16 @@
+model,split,accuracy,balanced_acc,macro_precision,macro_recall,macro_f1,roc_auc_macro,pr_auc_macro,log_loss,fit_sec
+[baseline] Dummy (prior),val,0.3177,0.25,0.0794,0.25,0.1205,0.5,0.25,1.2865,0.4
+[baseline] Logistic Regression,val,0.4665,0.5138,0.556,0.5138,0.5314,0.7216,0.5398,1.097,9.2
+[baseline] Random Forest,val,0.4735,0.5224,0.5504,0.5224,0.5346,0.7247,0.5471,1.091,5.2
+[baseline] Hist Gradient Boosting,val,0.4688,0.5195,0.534,0.5195,0.5247,0.7275,0.5486,1.0888,3.4
+[class weights] none,val,0.4742,0.5187,0.5808,0.5187,0.5423,0.7293,0.5504,1.0545,3.2
+[class weights] balanced,val,0.4688,0.5195,0.534,0.5195,0.5247,0.7275,0.5486,1.0888,3.4
+[feature eng.] LogReg / raw triage,val,0.3985,0.4312,0.3829,0.4312,0.3895,0.6688,0.4283,1.2539,9.6
+[feature eng.] HistGB / raw triage,val,0.4081,0.439,0.393,0.439,0.4004,0.6709,0.4338,1.247,3.8
+[feature eng.] LogReg / engineered triage,val,0.3949,0.4257,0.3807,0.4257,0.3871,0.6667,0.4246,1.2574,8.5
+[feature eng.] HistGB / engineered triage,val,0.4116,0.4404,0.3966,0.4404,0.4038,0.6721,0.4354,1.2451,3.4
+[tuned] Logistic Regression,val,0.4673,0.5146,0.557,0.5146,0.5323,0.7216,0.5399,1.0971,25.5
+[tuned] Random Forest,val,0.4763,0.5244,0.5534,0.5244,0.5365,0.7273,0.5497,1.0966,135.5
+[tuned] Hist Gradient Boosting,val,0.4688,0.5206,0.5333,0.5206,0.525,0.7296,0.5503,1.0878,134.7
+[tuned] DL Sequential MLP,val,0.4725,0.5213,0.5517,0.5213,0.5347,0.7284,0.549,1.0813,
+[tuned] DL Functional embeddings,val,0.4711,0.5202,0.5426,0.5202,0.5292,0.7272,0.5473,1.0893,

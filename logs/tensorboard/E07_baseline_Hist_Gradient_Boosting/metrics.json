@@ -1,0 +1,22 @@
+{
+  "exp_id": "E07",
+  "group": "baseline",
+  "run": "[baseline] Hist Gradient Boosting",
+  "model": "HistGradientBoostingClassifier",
+  "features": "main triage features",
+  "hyperparameters": "{\"class_weight\": \"balanced\", \"random_state\": 42}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.4688,
+  "balanced_acc": 0.5195,
+  "macro_precision": 0.534,
+  "macro_recall": 0.5195,
+  "macro_f1": 0.5247,
+  "roc_auc_macro": 0.7275,
+  "pr_auc_macro": 0.5486,
+  "log_loss": 1.0888,
+  "fit_sec": 3.4,
+  "observation": ""
+}

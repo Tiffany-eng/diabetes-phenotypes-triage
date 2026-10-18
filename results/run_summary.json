@@ -1,0 +1,54 @@
+{
+  "K": 4,
+  "algorithm": "kmeans",
+  "stability_ARI_mean": 0.9511449556181409,
+  "triage_features": [
+    "age_mid",
+    "had_prior_inpatient",
+    "number_outpatient",
+    "number_emergency",
+    "number_inpatient",
+    "service_utilization",
+    "race",
+    "gender",
+    "admission_type_id",
+    "admission_source_id",
+    "medical_specialty",
+    "diag_1_grp"
+  ],
+  "best_traditional": "Hist Gradient Boosting",
+  "best_traditional_params": {
+    "clf__min_samples_leaf": "50",
+    "clf__max_leaf_nodes": "63",
+    "clf__max_depth": "6",
+    "clf__learning_rate": "0.1",
+    "clf__l2_regularization": "10.0"
+  },
+  "best_deep_learning": "DL Sequential MLP",
+  "best_deep_learning_params": {
+    "units": "(128,)",
+    "dropout": "0.2",
+    "l2": "0.001",
+    "lr": "0.0003",
+    "batch": "256"
+  },
+  "config": {
+    "CLUSTER_ALGO": "kmeans",
+    "K_RANGE": "range(2, 9)",
+    "K_AUTO_RANGE": "(3, 5)",
+    "K_FINAL": "4",
+    "PCA_VARIANCE": "0.9",
+    "KM_NINIT": "10",
+    "SIL_SAMPLE": "8000",
+    "N_BOOT_STAB": "10",
+    "FIRST_ENCOUNTER_ONLY": "True",
+    "TRIAGE_USE_DIAG1": "True",
+    "N_ITER_TRAD": "10",
+    "CV_FOLDS": "3",
+    "RF_TREES": "(150, 300)",
+    "N_TRIALS_SEQ": "8",
+    "N_TRIALS_EMB": "6",
+    "EPOCHS": "40",
+    "N_BOOT_CI": "200"
+  }
+}

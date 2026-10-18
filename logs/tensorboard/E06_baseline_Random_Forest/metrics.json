@@ -1,0 +1,22 @@
+{
+  "exp_id": "E06",
+  "group": "baseline",
+  "run": "[baseline] Random Forest",
+  "model": "RandomForestClassifier",
+  "features": "main triage features",
+  "hyperparameters": "{\"class_weight\": \"balanced_subsample\", \"min_samples_leaf\": 5, \"n_estimators\": 200, \"n_jobs\": -1, \"random_state\": 42}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.4735,
+  "balanced_acc": 0.5224,
+  "macro_precision": 0.5504,
+  "macro_recall": 0.5224,
+  "macro_f1": 0.5346,
+  "roc_auc_macro": 0.7247,
+  "pr_auc_macro": 0.5471,
+  "log_loss": 1.091,
+  "fit_sec": 5.2,
+  "observation": ""
+}

@@ -1,0 +1,22 @@
+{
+  "exp_id": "E12",
+  "group": "feature_engineering",
+  "run": "[feature eng.] LogReg / engineered triage",
+  "model": "LogisticRegression",
+  "features": "engineered triage",
+  "hyperparameters": "{\"class_weight\": \"balanced\", \"max_iter\": 1000}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.3949,
+  "balanced_acc": 0.4257,
+  "macro_precision": 0.3807,
+  "macro_recall": 0.4257,
+  "macro_f1": 0.3871,
+  "roc_auc_macro": 0.6667,
+  "pr_auc_macro": 0.4246,
+  "log_loss": 1.2574,
+  "fit_sec": 8.5,
+  "observation": ""
+}

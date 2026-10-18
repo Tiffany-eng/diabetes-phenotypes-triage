@@ -1,0 +1,23 @@
+{
+  "exp_id": "E29",
+  "group": "deep_learning",
+  "run": "Embedding trial 5",
+  "model": "Keras Functional (entity embeddings)",
+  "features": "main triage features (embeddings + numeric)",
+  "hyperparameters": "{\"emb_dim\": 4, \"units\": [256, 128], \"dropout\": 0.2, \"l2\": 1e-05, \"lr\": 0.001, \"batch\": 1024}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.4706,
+  "balanced_acc": 0.5171,
+  "macro_precision": 0.5628,
+  "macro_recall": 0.5171,
+  "macro_f1": 0.5366,
+  "roc_auc_macro": 0.7244,
+  "pr_auc_macro": 0.5417,
+  "log_loss": 1.0876,
+  "fit_sec": 19.1,
+  "epochs_run": 19,
+  "observation": ""
+}

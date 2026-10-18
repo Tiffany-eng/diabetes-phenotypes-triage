@@ -1,0 +1,21 @@
+{
+  "exp_id": "E32",
+  "group": "final_test",
+  "run": "TEST DL Sequential MLP",
+  "model": "DL Sequential MLP",
+  "features": "main triage features",
+  "hyperparameters": "{\"units\": [128], \"dropout\": 0.2, \"l2\": 0.001, \"lr\": 0.0003, \"batch\": 256}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "test",
+  "eval_n": 10728,
+  "accuracy": 0.4745,
+  "balanced_acc": 0.5182,
+  "macro_precision": 0.552,
+  "macro_recall": 0.5182,
+  "macro_f1": 0.5328,
+  "roc_auc_macro": 0.7322,
+  "pr_auc_macro": 0.547,
+  "log_loss": 1.0821,
+  "observation": ""
+}

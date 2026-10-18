@@ -1,0 +1,22 @@
+{
+  "exp_id": "E08",
+  "group": "class_weighting",
+  "run": "[class weights] none",
+  "model": "HistGradientBoostingClassifier",
+  "features": "main triage features",
+  "hyperparameters": "{\"random_state\": 42}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.4742,
+  "balanced_acc": 0.5187,
+  "macro_precision": 0.5808,
+  "macro_recall": 0.5187,
+  "macro_f1": 0.5423,
+  "roc_auc_macro": 0.7293,
+  "pr_auc_macro": 0.5504,
+  "log_loss": 1.0545,
+  "fit_sec": 3.2,
+  "observation": ""
+}

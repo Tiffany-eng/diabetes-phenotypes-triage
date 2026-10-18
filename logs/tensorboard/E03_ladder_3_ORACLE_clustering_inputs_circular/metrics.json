@@ -1,0 +1,22 @@
+{
+  "exp_id": "E03",
+  "group": "information_ladder",
+  "run": "[ladder] 3. ORACLE (clustering inputs, circular)",
+  "model": "HistGradientBoostingClassifier",
+  "features": "3. ORACLE (clustering inputs, circular)",
+  "hyperparameters": "{\"class_weight\": \"balanced\", \"random_state\": 42}",
+  "split_scheme": "patient-level 70/15/15 (GroupShuffleSplit)",
+  "train_n": 50059,
+  "eval_split": "val",
+  "eval_n": 10728,
+  "accuracy": 0.9829,
+  "balanced_acc": 0.9856,
+  "macro_precision": 0.9854,
+  "macro_recall": 0.9856,
+  "macro_f1": 0.9855,
+  "roc_auc_macro": 0.9996,
+  "pr_auc_macro": 0.9991,
+  "log_loss": 0.0479,
+  "fit_sec": 11.2,
+  "observation": ""
+}
