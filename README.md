@@ -8,8 +8,8 @@ Unsupervised discovery of comorbidity phenotypes (K-Means) followed by supervise
 
 | Deliverable | Link |
 |---|---|
-| Written report (IEEE style) | PASTE_REPORT_LINK |
-| Google Drive folder (raw data zip, best models; anyone with the link can view) | PASTE_DRIVE_URL |
+| Written report (IEEE style) | [REPORT_LINK](https://docs.google.com/document/d/1iTD-sdX6thMy6rwgb-Svh3_-9ut3xqP0MEoisUI4wEE/edit?usp=sharing) |
+| Google Drive folder (raw data zip, best models; anyone with the link can view) |[DRIVE_URL](https://drive.google.com/drive/folders/1bfA3Yi49PF869gY2FEPUk83fxKSgJ5GB?usp=drive_link) |
 | Presentation video (5-10 min) | PASTE_VIDEO_URL |
 
 ## Problem and approach
